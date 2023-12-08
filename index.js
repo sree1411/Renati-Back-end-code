@@ -29,7 +29,7 @@ mongoose.connect(DB, {
  .catch((err) => console.error('DB connection error:', err));
  
  
- 
+ const jwtSecret = process.env.JWT_SECRET;
  
 
 //register
